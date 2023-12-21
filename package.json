@@ -1,0 +1,17 @@
+{
+    "name": "com.jimmylab.reorder-list-demo",
+    "version": "1.0.0",
+    "displayName": "ReorderListDemo",
+    "description": "Demonstrate how to implement a reorderable list using UI Toolkit",
+    "unity": "2022.2",
+    "documentationUrl": "https://jimmylab.net/",
+    "dependencies": {
+    },
+    "keywords": [
+    ],
+    "author": {
+        "name": "Jimmy Liu",
+        "email": "webmaster@jimmylab.net",
+        "url": "https://jimmylab.net/"
+    }
+}

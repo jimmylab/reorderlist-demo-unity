@@ -1,0 +1,24 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="ReorderListDemo.uss" />
+    <ui:VisualElement name="reorder-test">
+        <ui:VisualElement name="reorder-test__wrapper">
+            <ui:VisualElement name="reorder-test__item" class="reorder-test__item" style="background-color: #af5141;">
+                <ui:Label text="0" />
+            </ui:VisualElement>
+            <ui:VisualElement name="reorder-test__item" class="reorder-test__item" style="background-color: #cf674a;">
+                <ui:Label text="1" />
+            </ui:VisualElement>
+            <ui:VisualElement name="reorder-test__item" class="reorder-test__item" style="background-color: #d57d6d;">
+                <ui:Label text="2" />
+            </ui:VisualElement>
+            <ui:VisualElement name="reorder-test__item" class="reorder-test__item" style="background-color: #a3a072;">
+                <ui:Label text="3" />
+            </ui:VisualElement>
+            <ui:VisualElement name="reorder-test__item" class="reorder-test__item" style="background-color: #61836a;">
+                <ui:Label text="4" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <!-- Contains the same classes with common item. Make sure it has the highest render priority. -->
+        <ui:VisualElement name="reorder-test__overlay" class="reorder-test__item"></ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
